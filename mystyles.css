@@ -1,0 +1,130 @@
+/* mystyles.css */
+
+html,
+body{
+    height: 100%;
+	background-color: lightblue;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section-content1{
+    padding: 5rem 0;
+	background-image: url(image/KeychainAlphabet.jpg);
+	background-size: cover;
+	
+	
+}
+
+.box{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	max-height: 50%;
+	max-width: 50%;
+}
+/*Card for my product*/
+
+.card {
+	padding: auto;
+	width: 100%;
+	margin: auto;
+	height: auto;
+  
+}
+
+.card-group{
+	padding: auto;
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
+
+.card-column{
+	padding: auto;
+	width: 100%;
+	margin: auto;
+	height: 100%;
+}
+
+/*carousel*/
+
+.carousel-inner img {
+	padding: 5rem 0;
+    width: 100%;
+	height: 960px;
+	margin: auto;
+}
+.carousel-caption{
+	margin-bottom: 100px;
+}
+.carousel-indicators {
+	margin-bottom:80px
+}
+
+/*footer*/
+
+.pagination justify-content-center{
+	padding: 5rem 0;
+}
+
+.footer {
+  
+	width: auto;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	text-align: center-right;
+ }
+
+
+/*container*/
+
+.grid-container{
+  display: grid;
+  grid-column-gap: 50px;
+  justify-content: left;
+	align-items: center;
+	position: absolute;
+	left: 50px;
+	height: 100%;
+	width: 100%;
+}
+}
+.container{
+	padding: auto;
+	min-width: 90%;
+}
+
+}
+.blockContainer{
+	display: flex;
+}
+
+.blink {
+	width: auto;
+	height: auto;
+        padding: 20px;
+        text-align: center;
+        line-height: 100px;
+      }
+      span {
+        font-size: 36px;
+        font-family: Rockwell;
+        color: black;
+        animation: blink 2s linear infinite;
+      }
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: .5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
